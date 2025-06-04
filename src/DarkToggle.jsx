@@ -1,4 +1,3 @@
-import React from "react";
 import useDarkMode from "./useDarkMode";
 
 export default function DarkToggle({
@@ -13,26 +12,34 @@ export default function DarkToggle({
   const defaultLight = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-5 w-5 text-yellow-400"
-      viewBox="0 0 20 20"
+      className="h-5 w-5 text-blue-800"
+      viewBox="0 0 24 24"
       fill="currentColor"
     >
-      <path d="M10 2a1 1 0 011 1v1.25a1 1 0 11-2 0V3a1 1 0 011-1zm6.364 2.636a1 1 0 10-1.414-1.414L13.95 4.222a1 1 0 101.414 1.414l1.586-1.586zM17 9a1 1 0 100 2h1.25a1 1 0 100-2H17zm-2.05 6.778a1 1 0 10-1.414-1.414l-1.586 1.586a1 1 0 001.414 1.414l1.586-1.586zM10 17a1 1 0 011-1v-1.25a1 1 0 10-2 0V16a1 1 0 011 1zm-6.364-2.636a1 1 0 101.414 1.414l1.586-1.586a1 1 0 00-1.414-1.414l-1.586 1.586zM3 11a1 1 0 100-2H1.75a1 1 0 100 2H3zm2.05-6.778a1 1 0 001.414 1.414l1.586-1.586A1 1 0 006.05 3.636L4.464 5.222z" />
+      <path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
     </svg>
   );
 
   const defaultDark = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-5 w-5 text-gray-300"
-      viewBox="0 0 20 20"
-      fill="currentColor"
+      className="h-5 w-5 text-yellow-500"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
-      <path
-        fillRule="evenodd"
-        d="M17.293 13.293a8 8 0 01-11.586 0 8 8 0 0111.586 0zm1.414-1.414a10 10 0 10-14.142 0 10 10 0 0014.142 0z"
-        clipRule="evenodd"
-      />
+      <circle cx="12" cy="12" r="5" />
+      <path d="M12 1v2" />
+      <path d="M12 21v2" />
+      <path d="M4.22 4.22l1.42 1.42" />
+      <path d="M18.36 18.36l1.42 1.42" />
+      <path d="M1 12h2" />
+      <path d="M21 12h2" />
+      <path d="M4.22 19.78l1.42-1.42" />
+      <path d="M18.36 5.64l1.42-1.42" />
     </svg>
   );
 
