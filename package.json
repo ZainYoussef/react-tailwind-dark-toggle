@@ -1,16 +1,33 @@
 {
   "name": "react-tailwind-dark-toggle",
   "version": "1.0.0",
+  "description": "A simple React + Tailwind dark mode toggle button component.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "react",
+    "tailwind",
+    "dark-mode",
+    "toggle",
+    "theme",
+    "component",
+    "dark-mode-toggle"
+  ],
+  "author": "Zain Yousef",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zainyoussef/react-tailwind-dark-toggle"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "files": [
+    "index.js",
+    "DarkToggle.jsx",
+    "useDarkMode.js"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
   }
 }
