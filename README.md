@@ -2,11 +2,7 @@
 
 A simple dark mode toggle button component for React + Tailwind apps.
 
-## 🚀 Install
 
-```bash
-npm install react-tailwind-dark-toggle
-```
 
 Here's a complete and clear list of all props that can be passed to your `DarkToggle` React component, formatted for use in your package's README file:
 
