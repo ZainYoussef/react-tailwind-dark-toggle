@@ -1,3 +1,3 @@
-import DarkToggle from "./src/DarkToggle";
+import DarkToggle from "./DarkToggle";
 
 export default DarkToggle;
