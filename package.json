@@ -1,6 +1,6 @@
 {
   "name": "react-tailwind-dark-toggle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple React + Tailwind dark mode toggle button component.",
   "main": "index.js",
   "keywords": [
