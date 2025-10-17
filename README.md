@@ -14,7 +14,7 @@ npm install react-tailwind-dark-toggle
 
 ## Setup
 
-## This component works by toggling a `dark` class on the `<html>` element. For it to work, you must enable Tailwind's class-based dark mode in your React Application.
+This component works by toggling a `dark` class on the `<html>` element. For it to work, you must enable Tailwind's class-based dark mode in your React Application.
 
 ## `DarkToggle` Props
 
